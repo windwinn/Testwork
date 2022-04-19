@@ -1,0 +1,115 @@
+.topic-header{
+    background-color:  var(--color-green) !important;
+    width: 256px;
+    height: 100%;
+    float: left;
+    p{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+}
+.topic-header2{
+    background-color:white !important;
+    width: 256px;
+    height: 100%;
+    float: left;
+    p{
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+}
+.user-header{
+    width: auto;
+    height: 100%;
+    float: right;
+    padding: 15px 30px 0px;
+    border-left: 1px solid;
+}
+.btn-page{
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+::ng-deep .nb-theme-default nb-layout-header nav {
+     padding: 0px !important;
+     display: block !important
+}
+
+
+
+ul,li {
+    color: black !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+::ng-deep nb-sidebar {
+    background-color:  var(--color-green) !important;
+}
+
+::ng-deep .nb-theme-default nb-menu .menu-item {
+     border: none;
+}
+
+::ng-deep .nb-theme-default nb-menu .menu-item .expand-state {
+    color: var(--color-green) !important;
+}
+::ng-deep .nb-theme-default nb-menu .menu-item .menu-item:first-child {
+    border-top: none;
+}
+
+nb-action {
+    height: auto;
+    display: flex;
+    align-content: center;
+  }
+
+  nb-user {
+    cursor: pointer;
+  }
+
+  .user-action {
+    // border: none;
+    padding-right: 0;
+  }
+  ::ng-deep .nb-theme-default nb-card {
+    margin: 0px!important;
+    }
+  ::ng-deep .nb-theme-default nb-popover {
+    padding: 1rem;
+    }
+    .btn-logout{
+        background-color: white !important;
+        border-style:none !important;
+    }
+
+  #sideBar{ 
+    ::ng-deep .menu-title  {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+    ::ng-deep .menu-icon {
+        color: white !important;
+    }
+    ::ng-deep .menu-icon :hover {
+        color: white !important;
+    }
+  }
+
+  ::ng-deep td {
+
+    padding-right: 10px !important;
+
+}

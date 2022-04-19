@@ -1,0 +1,22 @@
+::ng-deep .nb-theme-default nb-select.appearance-outline.status-basic .select-button {
+    background-color: white !important;
+    border-color: #e4e9f2;
+  }
+p {
+    margin-top: revert;
+    margin-bottom: 0px;
+}
+.q1{
+  padding:15px 0px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
